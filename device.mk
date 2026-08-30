@@ -192,7 +192,7 @@ TARGET_USES_VULKAN := true
 # Init
 PRODUCT_PACKAGES += \
     fstab.default \
-    fstab.default.vendor_ramdisk
+    fstab.default.first_stage_ramdisk
 
 PRODUCT_PACKAGES += \
     init.qcom.rc \
