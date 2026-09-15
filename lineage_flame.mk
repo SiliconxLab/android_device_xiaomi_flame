@@ -24,7 +24,7 @@ $(call inherit-product, vendor/xiaomi/flame/flame-vendor.mk)
 ## Device identifier
 PRODUCT_DEVICE := flame
 PRODUCT_NAME := lineage_flame
-PRODUCT_BRAND := Redmi
+PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 24108PCE2I
 PRODUCT_MANUFACTURER := Xiaomi
 
