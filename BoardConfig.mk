@@ -6,6 +6,7 @@
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/flame/BoardConfigVendor.mk
+-include vendor/xiaomi/flame-firmware/config.mk
 
 DEVICE_PATH := device/xiaomi/flame
 KERNEL_PATH := $(DEVICE_PATH)-kernel
