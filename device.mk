@@ -33,6 +33,10 @@ QCV_FAMILY_SKUS := parrot ravelin
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Gcam
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
