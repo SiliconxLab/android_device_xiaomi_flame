@@ -313,6 +313,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
+# Sku properties
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/properties/sku/,$(TARGET_COPY_OUT_ODM)/etc)
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
